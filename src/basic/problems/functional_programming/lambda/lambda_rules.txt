@@ -1,0 +1,17 @@
+To implement interface we have three ways->
+1] Using class implementation
+2] using anonymous class
+3] using lambda expression
+
+Lambda expression only used with functional interfaces.
+functional interfaces can only have single abstract method to call itself functional.
+Lambda expression its just used to give method implementation.
+
+Syntax->
+ReferenceInterface refName = () -> {
+//method implementation
+};
+
+() : it represents empty method
+(int a) : represents parameterised method
+-> : arrow operator used to connect arguments with function body
